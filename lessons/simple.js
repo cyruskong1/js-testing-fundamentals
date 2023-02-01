@@ -1,6 +1,6 @@
 const {sum, subtract} = require('../math')
 
-test('sum adds numbers', async () => {
+test('sum adds numbers to each other', async () => {
   const result = await sum(3, 7)
   const expected = 10
   expect(result).toBe(expected)
